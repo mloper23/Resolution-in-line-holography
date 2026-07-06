@@ -27,8 +27,8 @@ cfg = struct();
 
 % Data location
 cfg.name = '20251002_095542';
-cfg.imagePath = fullfile('./data/100225/IC_L10/Phase', [cfg.name '_2.png']);
-cfg.metadataPath = './data/100225/IC_L10/Resolution_recording.csv';
+cfg.imagePath = fullfile('./', [cfg.name '_2.png']);
+cfg.metadataPath = './Resolution_recording.csv';
 
 % Sensor pixel pitch [m]
 cfg.sensor_pixel_m = 1.85e-6;
